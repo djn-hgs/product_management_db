@@ -54,7 +54,7 @@ class ProductDatabase:
 
         self.connection.commit()
 
-    def get_manufacturer_id(self, name):
+    def get_manufacturer_id(self, name) -> list[int]:
         id_match_query = 'SELECT ManufacturerID FROM Manufacturer WHERE ManufacturerName = ?'
 
         self.cursor.execute(id_match_query, (name,))
