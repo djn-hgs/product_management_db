@@ -14,8 +14,8 @@ class ControllerCLI:
                 2: 'List all products',
                 3: 'Add manufacturer',
                 4: 'Add product',
-                5: 'Delete manufacturer',
-                6: 'Delete product',
+                5: 'Delete product',
+                6: 'Delete manufacturer',
                 7: 'Quit'
             }
 

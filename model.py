@@ -99,6 +99,9 @@ class ProductDatabase:
 
         all_manufacturer_list = self.cursor.fetchall()
 
+
+        print(all_manufacturer_list)
+
         return [
             {'ManufacturerID': manufacturer_id, 'ManufacturerName': manufacturer_name}
             for manufacturer_id, manufacturer_name in all_manufacturer_list
